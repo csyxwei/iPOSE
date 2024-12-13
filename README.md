@@ -76,8 +76,6 @@ bash scripts/train_ade20k_ipose.sh
 
 ## Citation
 
----
-
 ```
 @inproceedings{wei2023inferring,
   title={Inferring and leveraging parts from object shape for improving semantic image synthesis},
