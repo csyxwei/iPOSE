@@ -1,0 +1,2 @@
+OMP_NUM_THREADS=16 CUDA_VISIBLE_DEVICES=4,5,6,7 python test_ipose.py --name ipose_ade20k --dataset_mode ade20kins --gpu_ids 0,1,2,3 \
+--dataroot /home/weiyuxiang/datasets/ADEChallengeData2016 --batch_size 24 --part_nc 32 --use_coord --ckpt_iter best --seed 42 --n_support 3

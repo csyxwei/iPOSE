@@ -1,0 +1,2 @@
+OMP_NUM_THREADS=16 CUDA_VISIBLE_DEVICES=0,1,2,3 python test_ipose.py --name ipose_coco --dataset_mode cocoins --gpu_ids 0,1,2,3 \
+--dataroot /home/weiyuxiang/datasets/COCO --batch_size 28 --part_nc 32 --use_coord --ckpt_iter best --seed 42 --n_support 3

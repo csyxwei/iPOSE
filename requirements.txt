@@ -1,0 +1,6 @@
+tqdm
+ftfy
+regex
+matplotlib
+scipy
+opencv-python

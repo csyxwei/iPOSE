@@ -1,0 +1,2 @@
+CUDA_VISIBLE_DEVICES=0,1,2,3 python test_ipose.py --name ipose_cityscapes --dataset_mode cityscapesins --gpu_ids 0,1,2,3 \
+--dataroot /home/weiyuxiang/datasets/Cityscapes --batch_size 4 --part_nc 32  --use_coord --ckpt_iter best --seed -1 --n_support 3
