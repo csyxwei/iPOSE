@@ -1,11 +1,7 @@
 # [Inferring and Leveraging Parts from Object Shape for Improving Semantic Image Synthesis](https://arxiv.org/abs/2305.19547)
 
----
-
 
 ## Method Details
-
----
 
 ![teaser](assets/teaser.png)
 
@@ -13,7 +9,6 @@ We propose a method iPOSE to infer parts from object shape and leverage them to 
 
 ## Quick Start
 
----
 
 ### Environment Setup
 
@@ -94,7 +89,5 @@ bash scripts/train_ade20k_ipose.sh
 ```
 
 ## Acknowledgments
-
----
 
 This code is built on [SPADE](https://github.com/NVlabs/SPADE) and [OASIS](https://github.com/boschresearch/OASIS). We thank the authors for sharing the codes.
